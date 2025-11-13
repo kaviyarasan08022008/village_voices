@@ -12,7 +12,7 @@
     margin-bottom: 50px;
     position: relative;
     cursor: pointer;
-    background:linear-gradient(#eff19b,rgba(255, 240, 128, 0.669));
+    background:#eea410b0;
 }
 .box2{
     box-sizing: border-box ;
@@ -24,7 +24,7 @@
     margin-bottom: 50px;
     position: relative;
     cursor: pointer;
-    background:linear-gradient(#eff19b,rgba(255, 240, 128, 0.669));
+    background:#eea410b0;
 }
 h2{
     display: flex;
