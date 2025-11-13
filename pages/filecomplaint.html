@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Complaints Page</title>
+    <link rel="stylesheet" href="../css_styles/filecomplaint.css">
+    <link rel="shortcut icon" href="../asset/android-chrome-512x512.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h2>File Corruption Complaint</h2>
+      <p>All information is encrypted and secure. Your identity is protected.</p>
+    </div>
+
+    <form>
+      <label>Corruption Category <span>*</span></label>
+      <select required>
+        <option value="">Corruption / Bribery (லஞ்ச ஊழல்)</option>
+        <option>Road Problems (சாலை பிரச்சனை)</option>
+        <option>Water Supply Issues (தண்ணீர் விநியோகம் பிரச்சனை)</option>
+        <option>Electricity Issues (மின்சாரம் பிரச்சனை)</option>
+        <option>Drainage / Sanitation (கழிவுநீர் / சுகாதாரம்)</option>
+        <option>Ration / PDS Corruption (ரேஷன் ஊழல்)</option>
+        <option>School / Education Problems (பள்ளி / கல்வி பிரச்சனை)</option>
+        <option>Health / Hospital Issues (மருத்துவம் / ஆரோக்கிய பிரச்சனை)</option>
+        <option>>Agriculture Problems (விவசாய பிரச்சனை)</option>
+        <option>Land / Property Disputes (நிலம் / சொத்து பிரச்சனை)</option>
+        <option>Waste Management (குப்பை நிர்வாகம்)</option>
+        <option>Women Safety / Harassment (பெண்கள் பாதுகாப்பு / தொந்தரவு)</option>
+        <option>Police / Law Issues (காவல் துறை / சட்ட பிரச்சனை)</option>
+        <option>Panchayat Misuse / Funds (பஞ்சாயத்து நிதி மோசடி)</option>
+        <option>Public Transport Issues (பொதுப் போக்குவரத்து பிரச்சனை)</option>
+      </select>
+
+      <div class="row">
+        <div>
+          <label>Officer / Official Name <span>*</span></label>
+          <input type="text" required>
+        </div>
+        <div>
+          <label>Designation / Position <span>*</span></label>
+          <input type="text" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div>
+          <label>Village / Location <span>*</span></label>
+          <input type="text" required>
+        </div>
+        <div>
+          <label>District <span>*</span></label>
+          <input type="text" required>
+        </div>
+      </div>
+
+      <label>Incident Date <span>*</span></label>
+      <input type="date" required>
+
+      <label>Detail Description of Corruption <span>*</span></label>
+      <textarea required></textarea>
+
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+      <label for="file">Upload Evidence File:</label><br><br>
+      <input type="file" id="file" name="file" accept=".jpg,.png,.pdf,.mp4"><br><br>
+
+      <div class="anon">
+        <input type="checkbox" id="anonymous">
+        <label for="anonymous" class="submit">Submit Anonymously</label>
+      </div>
+
+      <div class="contact-info">
+        <label>Contact Information (optional)</label>
+        <input type="text" placeholder="Your Name">
+        <div class="row">
+          <input type="text" placeholder="Phone Number">
+          <input type="email" placeholder="Email Address">
+        </div>
+      </div>
+
+      <button type="submit">Submit Complaint Securely</button>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Selection</title>
+  <link rel="stylesheet" href="../css_styles/login.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Select Login Type</h2>
+
+    <div class="role-selection">
+      <button id="adminBtn">Admin</button>
+      <button id="userBtn">People</button>
+    </div>
+
+    <div id="loginForm" class="login-form">
+      <h3 id="loginTitle">Login</h3>
+      <h4>Username :</h4>
+      <input type="text" placeholder="Username" />
+      <h4>Password :</h4>
+      <input type="password" placeholder="Password" />
+      <div class="remember">
+            <a href="#">Forgot Password?</a>
+          </div>
+      <br>
+      <button class="login-btn">Login</button>
+      <p class="regi">
+            Don't have an account? <a href="#">Register here</a>
+          </p>
+    </div>
+  </div>
+
+  <script>
+    const adminBtn = document.getElementById("adminBtn");
+    const userBtn = document.getElementById("userBtn");
+    const loginForm = document.getElementById("loginForm");
+    const loginTitle = document.getElementById("loginTitle");
+
+    adminBtn.addEventListener("click", () => {
+      loginTitle.textContent = "Admin Login";
+    });
+
+    userBtn.addEventListener("click", () => {
+      loginTitle.textContent = "People Login";
+    });
+  </script>
+</body>
+</html>

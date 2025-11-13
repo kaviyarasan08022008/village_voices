@@ -1,0 +1,79 @@
+
+.track-container {
+  background: #fefefe;
+  border-radius: 8px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px 10px rgba(4, 8, 255, 0.2);
+  margin-top: 6px;
+  margin-left: 550px;
+}
+
+.header {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form {
+  margin: 20px 0;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 18px;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #807b7b;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status-box {
+  background: #bdbdbd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.status-box h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.details p {
+  font-size: 14px;
+  padding: 2px;
+  margin: 4px 0;
+}
+
+.timeline {
+  margin-top: 10px;
+}
+
+.step {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.step span {
+  float: right;
+  color: gray;
+  font-size: 12px;
+}

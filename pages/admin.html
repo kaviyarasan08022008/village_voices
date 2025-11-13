@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collector Admin Panel</title>
+  <link rel="stylesheet" href="../css_styles/admin.css">
+  <link rel="shortcut icon" href="../asset/android-chrome-512x512.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img id="admin-logo" src="../asset/village voice logo.png" alt="Village Voice Logo">
+    <h1 class="tag">VILLAGE VOICE | Collector Admin Panel</h1>
+    <button>Logout</button>
+  </header>
+
+  <section class="dashboard">
+    <h2>Admin Summary (Dashboard)</h2>
+
+    <div class="summary-cards">
+      <div class="card blue">
+        <h3>Total Complaints</h3>
+        <p>145</p>
+      </div>
+      <div class="card orange">
+        <h3>New / Pending</h3>
+        <p>42</p>
+      </div>
+      <div class="card green">
+        <h3>Resolved Complaints</h3>
+        <p>103</p>
+      </div>
+    </div>
+
+    <h3 class="new">New and Pending Complaints</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>COMPLAINT ID</th>
+          <th>GRIEVANCE TITLE</th>
+          <th>VILLAGE</th>
+          <th>DATE FILED</th>
+          <th>CURRENT STATUS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>RPT0045</td>
+          <td>Road Fund Corruption</td>
+          <td>Keelakurichi</td>
+          <td>2025-11-01</td>
+          <td><span class="status.pending"></span> Pending</td>
+        </tr>
+        <tr>
+          <td>RPT0044</td>
+          <td>Water Pipe Repair needed</td>
+          <td>Melakarai</td>
+          <td>2025-10-28</td>
+          <td><span class="status.inprogress"></span> In Progress</td>
+        </tr>
+        <tr>
+          <td>RPT0042</td>
+          <td>School Building Deterioration</td>
+          <td>Villupuram</td>
+          <td>2025-10-20</td>
+          <td><span class="status.inprogress"></span> In Progress</td>
+        </tr>
+        <tr>
+          <td>RPT0043</td>
+          <td>Ration Shop Bribery</td>
+          <td>Puliyur</td>
+          <td>2025-10-25</td>
+          <td><span class="status.pending"></span> Pending</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+
+</html>
