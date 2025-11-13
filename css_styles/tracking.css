@@ -1,11 +1,11 @@
 
 .track-container {
-  background: #fefefe;
+  background: #f0f0f0;
   border-radius: 8px;
   width: 400px;
   padding: 20px;
   box-shadow: 0 0 10px 10px rgba(4, 8, 255, 0.2);
-  margin-top: 6px;
+  margin-top: 30px;
   margin-left: 550px;
 }
 
@@ -32,7 +32,7 @@ input {
   width: 80%;
   padding: 12px;
   border-radius: 5px;
-  border: 1px solid #807b7b;
+  border: 1px solid #ffffff;
 }
 
 button {
@@ -47,7 +47,7 @@ button {
 }
 
 .status-box {
-  background: #bdbdbd;
+  background: #0b34bd86;
   padding: 15px;
   border-radius: 5px;
 }
