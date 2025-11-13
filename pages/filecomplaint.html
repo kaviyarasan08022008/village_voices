@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Complaints Page</title>
-    <link rel="stylesheet" href="../css_styles/filecomplaint.css">
-    <link rel="shortcut icon" href="../asset/android-chrome-512x512.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Complaints Page</title>
+  <link rel="stylesheet" href="../css_styles/filecomplaint.css">
+  <link rel="shortcut icon" href="../asset/android-chrome-512x512.png" type="image/x-icon">
 </head>
+
 <body>
 
   <div class="container">
@@ -64,26 +66,26 @@
       <textarea required></textarea>
 
       <form action="upload.php" method="post" enctype="multipart/form-data">
-      <label for="file">Upload Evidence File:</label><br><br>
-      <input type="file" id="file" name="file" accept=".jpg,.png,.pdf,.mp4"><br><br>
+        <label for="file">Upload Evidence File:</label><br><br>
+        <input type="file" id="file" name="file" accept=".jpg,.png,.pdf,.mp4"><br><br>
 
-      <div class="anon">
-        <input type="checkbox" id="anonymous">
-        <label for="anonymous" class="submit">Submit Anonymously</label>
-      </div>
-
-      <div class="contact-info">
-        <label>Contact Information (optional)</label>
-        <input type="text" placeholder="Your Name">
-        <div class="row">
-          <input type="text" placeholder="Phone Number">
-          <input type="email" placeholder="Email Address">
+        <div class="anon">
+          <input type="checkbox" id="anonymous">
+          <label for="anonymous" class="submit">Submit Anonymously</label>
         </div>
-      </div>
 
-      <button type="submit">Submit Complaint Securely</button>
-    </form>
+        <div class="contact-info">
+          <label>Contact Information (optional)</label>
+          <input type="text" placeholder="Your Name">
+          <div class="row">
+            <input type="text" placeholder="Phone Number">
+            <input type="email" placeholder="Email Address">
+          </div>
+        </div>
+        <a href="./tracking.html" class="file"> Submit Complaint Securely</a>
+      </form>
   </div>
 
 </body>
+
 </html>
