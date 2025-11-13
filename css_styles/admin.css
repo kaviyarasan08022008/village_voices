@@ -91,15 +91,15 @@
     }
 
     .card.orange{
-      box-shadow: 5px 5px 5px#ed720d;
+      box-shadow: 5px 5px 5px#242424;
     }
 
     .card.green {
-      box-shadow: 5px 5px 5px #1a5126;
+      box-shadow: 5px 5px 5px #242424;
     }
 
     .card.blue {
-      box-shadow: 5px 5px 5px #c51313;
+      box-shadow: 5px 5px 5px #242424;
     }
 
     table {
