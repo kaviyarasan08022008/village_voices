@@ -56,13 +56,12 @@
     }
 
     tbody tr:nth-child(even) {
-      color: white;
-      background-color: #e0e0e0;
+      color: rgb(108, 108, 108);
+      background-color: #dadada;
 
     }
     tbody tr:hover{
       cursor: pointer;
-      background-color:#ff4d4dd1 ;
       color: white;
     }
     .summary-cards {
@@ -156,4 +155,26 @@
     .new{
       margin-bottom: 15px;
       font-size: 25px;
+    }
+
+    #ed-but{
+      background-color: #1aeb16;
+      color: white;
+      text-decoration: none;
+      border: none;
+      padding: 8px 24px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+     #del-but{
+      background-color: #e03128;
+      color: white;
+      text-decoration: none;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
     }
