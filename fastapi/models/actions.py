@@ -1,5 +1,4 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.orm import relationship
 from db.database import Base
 
 class Actions(Base):
@@ -11,5 +10,3 @@ class Actions(Base):
 
     status = Column(String)   # pending / in_progress / resolved
     remarks = Column(String)
-
-    complaint = relationship("Complaints", back_populates="actions")

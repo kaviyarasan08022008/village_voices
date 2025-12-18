@@ -3,8 +3,6 @@ from sqlalchemy.orm import Session
 from dependencies import connect_to_db
 from schemas.complaints import ComplaintCreate, ComplaintResponse  
 from models.complaints import Complaints
-
-
 router = APIRouter(
     prefix="/complaints",
     tags=["complaints"]

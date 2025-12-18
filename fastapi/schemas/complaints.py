@@ -17,11 +17,9 @@ class ComplaintBase(BaseModel):
 
 class ComplaintCreate(ComplaintBase):
     people_id: int
+    collector_id: int
 
 class ComplaintResponse(ComplaintBase):
     id: int
     people_id: int
-    collector_id: Optional[int] = None
-
-    class Config:
-        from_attributes = True
+    collector_id: int
